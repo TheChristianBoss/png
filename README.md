@@ -9,11 +9,11 @@ A browser-based editor for building consistent PNGTuber expressions and poses fr
 - Switch open/closed mouths to preview speech.
 - Import poses and new facial assets, save/load projects, and export transparent 1024 × 1536 PNGs or ZIP packs.
 
-> **Important:** Natural Photo mode is the recommended mode. Experimental facial mixing is not guaranteed to blend cleanly when pose, head angle, or lighting differ. The bundled photographic images are project artwork, not a generic asset library.
+> **Important:** Natural Photo mode is the recommended mode. Experimental facial mixing is not guaranteed to blend cleanly when pose, head angle, or lighting differ. The original bundled photographic images are project artwork, not a generic asset library; they have not yet been uploaded to this public repo.
 
 ## Run
 
-Open `index.html` in a browser after cloning/downloading the repository, or use the GitHub Pages site once Pages is enabled.
+Open `index.html` in a browser after cloning/downloading the repository, or use the GitHub Pages site once Pages is enabled. **The GitHub version currently contains code and a manifest, not the bundled photographic assets.** Use the **Import complete expression PNGs** button to load your own transparent 1024 × 1536 PNGs into Natural Photo mode. These stay local to your browser. The previously distributed standalone v1.1 ZIP from ChatGPT contains the complete starter library.
 
 The editor is a static web app, with no backend and no dependencies on external services. Imported files are processed locally in your browser.
 
@@ -39,6 +39,6 @@ See [Asset and alignment guide](docs/ASSETS.md) for guidance.
 
 ## GitHub Pages
 
-The repository includes a Pages deployment workflow. In **Settings → Pages**, select **GitHub Actions** as the source if the site isn't already enabled. Workflow status is visible in **Actions**.
+The repository includes a Pages deployment workflow. In **Settings → Pages**, select **GitHub Actions** as the source if the site isn't already enabled. Workflow status is visible in **Actions**. The live site has **not** been verified as deployed yet.
 
 This project does not include a license declaration; usage/reuse rights are reserved unless the repository owner chooses a license.
