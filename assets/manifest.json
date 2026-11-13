@@ -1,0 +1,666 @@
+{
+  "version": "1.1",
+  "description": "Bundled photographic artwork and feature patches",
+  "width": 1024,
+  "height": 1536,
+  "assets": [
+    {
+      "id": "pose_base",
+      "category": "poses",
+      "path": "assets/poses/pose_base.png",
+      "media_type": "image/png",
+      "label": "Original neutral pose"
+    },
+    {
+      "id": "eyes_001",
+      "category": "eyes",
+      "path": "assets/eyes/eyes_001.png",
+      "media_type": "image/png",
+      "label": "Neutral eyes"
+    },
+    {
+      "id": "eyes_003",
+      "category": "eyes",
+      "path": "assets/eyes/eyes_003.png",
+      "media_type": "image/png",
+      "label": "Soft eyes"
+    },
+    {
+      "id": "eyes_005",
+      "category": "eyes",
+      "path": "assets/eyes/eyes_005.png",
+      "media_type": "image/png",
+      "label": "Confident eyes"
+    },
+    {
+      "id": "eyes_007",
+      "category": "eyes",
+      "path": "assets/eyes/eyes_007.png",
+      "media_type": "image/png",
+      "label": "Happy eyes"
+    },
+    {
+      "id": "eyes_009",
+      "category": "eyes",
+      "path": "assets/eyes/eyes_009.png",
+      "media_type": "image/png",
+      "label": "Laughing eyes"
+    },
+    {
+      "id": "eyes_011",
+      "category": "eyes",
+      "path": "assets/eyes/eyes_011.png",
+      "media_type": "image/png",
+      "label": "Thinking eyes"
+    },
+    {
+      "id": "eyes_013",
+      "category": "eyes",
+      "path": "assets/eyes/eyes_013.png",
+      "media_type": "image/png",
+      "label": "Confused eyes"
+    },
+    {
+      "id": "eyes_015",
+      "category": "eyes",
+      "path": "assets/eyes/eyes_015.png",
+      "media_type": "image/png",
+      "label": "Skeptical eyes"
+    },
+    {
+      "id": "eyes_017",
+      "category": "eyes",
+      "path": "assets/eyes/eyes_017.png",
+      "media_type": "image/png",
+      "label": "Surprised eyes"
+    },
+    {
+      "id": "eyes_019",
+      "category": "eyes",
+      "path": "assets/eyes/eyes_019.png",
+      "media_type": "image/png",
+      "label": "Serious eyes"
+    },
+    {
+      "id": "eyes_021",
+      "category": "eyes",
+      "path": "assets/eyes/eyes_021.png",
+      "media_type": "image/png",
+      "label": "Annoyed eyes"
+    },
+    {
+      "id": "eyes_023",
+      "category": "eyes",
+      "path": "assets/eyes/eyes_023.png",
+      "media_type": "image/png",
+      "label": "Angry eyes"
+    },
+    {
+      "id": "eyes_025",
+      "category": "eyes",
+      "path": "assets/eyes/eyes_025.png",
+      "media_type": "image/png",
+      "label": "Worried eyes"
+    },
+    {
+      "id": "eyes_027",
+      "category": "eyes",
+      "path": "assets/eyes/eyes_027.png",
+      "media_type": "image/png",
+      "label": "Sad eyes"
+    },
+    {
+      "id": "eyes_029",
+      "category": "eyes",
+      "path": "assets/eyes/eyes_029.png",
+      "media_type": "image/png",
+      "label": "Shocked eyes"
+    },
+    {
+      "id": "eyes_031",
+      "category": "eyes",
+      "path": "assets/eyes/eyes_031.png",
+      "media_type": "image/png",
+      "label": "Embarrassed eyes"
+    },
+    {
+      "id": "eyes_035",
+      "category": "eyes",
+      "path": "assets/eyes/eyes_035.png",
+      "media_type": "image/png",
+      "label": "Smug eyes"
+    },
+    {
+      "id": "eyes_037",
+      "category": "eyes",
+      "path": "assets/eyes/eyes_037.png",
+      "media_type": "image/png",
+      "label": "Tired eyes"
+    },
+    {
+      "id": "eyes_039",
+      "category": "eyes",
+      "path": "assets/eyes/eyes_039.png",
+      "media_type": "image/png",
+      "label": "Determined eyes"
+    },
+    {
+      "id": "mouth_001",
+      "category": "mouths",
+      "path": "assets/mouths/mouth_001.png",
+      "media_type": "image/png",
+      "label": "Neutral · Closed"
+    },
+    {
+      "id": "mouth_002",
+      "category": "mouths",
+      "path": "assets/mouths/mouth_002.png",
+      "media_type": "image/png",
+      "label": "Neutral · Open"
+    },
+    {
+      "id": "mouth_003",
+      "category": "mouths",
+      "path": "assets/mouths/mouth_003.png",
+      "media_type": "image/png",
+      "label": "Soft · Closed"
+    },
+    {
+      "id": "mouth_005",
+      "category": "mouths",
+      "path": "assets/mouths/mouth_005.png",
+      "media_type": "image/png",
+      "label": "Confident · Closed"
+    },
+    {
+      "id": "mouth_006",
+      "category": "mouths",
+      "path": "assets/mouths/mouth_006.png",
+      "media_type": "image/png",
+      "label": "Confident · Open"
+    },
+    {
+      "id": "mouth_007",
+      "category": "mouths",
+      "path": "assets/mouths/mouth_007.png",
+      "media_type": "image/png",
+      "label": "Happy · Closed"
+    },
+    {
+      "id": "mouth_008",
+      "category": "mouths",
+      "path": "assets/mouths/mouth_008.png",
+      "media_type": "image/png",
+      "label": "Happy · Open"
+    },
+    {
+      "id": "mouth_009",
+      "category": "mouths",
+      "path": "assets/mouths/mouth_009.png",
+      "media_type": "image/png",
+      "label": "Laughing · Closed"
+    },
+    {
+      "id": "mouth_010",
+      "category": "mouths",
+      "path": "assets/mouths/mouth_010.png",
+      "media_type": "image/png",
+      "label": "Laughing · Open"
+    },
+    {
+      "id": "mouth_011",
+      "category": "mouths",
+      "path": "assets/mouths/mouth_011.png",
+      "media_type": "image/png",
+      "label": "Thinking · Closed"
+    },
+    {
+      "id": "mouth_012",
+      "category": "mouths",
+      "path": "assets/mouths/mouth_012.png",
+      "media_type": "image/png",
+      "label": "Thinking · Open"
+    },
+    {
+      "id": "mouth_013",
+      "category": "mouths",
+      "path": "assets/mouths/mouth_013.png",
+      "media_type": "image/png",
+      "label": "Confused · Closed"
+    },
+    {
+      "id": "mouth_014",
+      "category": "mouths",
+      "path": "assets/mouths/mouth_014.png",
+      "media_type": "image/png",
+      "label": "Confused · Open"
+    },
+    {
+      "id": "mouth_015",
+      "category": "mouths",
+      "path": "assets/mouths/mouth_015.png",
+      "media_type": "image/png",
+      "label": "Skeptical · Closed"
+    },
+    {
+      "id": "mouth_016",
+      "category": "mouths",
+      "path": "assets/mouths/mouth_016.png",
+      "media_type": "image/png",
+      "label": "Skeptical · Open"
+    },
+    {
+      "id": "mouth_017",
+      "category": "mouths",
+      "path": "assets/mouths/mouth_017.png",
+      "media_type": "image/png",
+      "label": "Surprised · Closed"
+    },
+    {
+      "id": "mouth_018",
+      "category": "mouths",
+      "path": "assets/mouths/mouth_018.png",
+      "media_type": "image/png",
+      "label": "Surprised · Open"
+    },
+    {
+      "id": "mouth_019",
+      "category": "mouths",
+      "path": "assets/mouths/mouth_019.png",
+      "media_type": "image/png",
+      "label": "Serious · Closed"
+    },
+    {
+      "id": "mouth_020",
+      "category": "mouths",
+      "path": "assets/mouths/mouth_020.png",
+      "media_type": "image/png",
+      "label": "Serious · Open"
+    },
+    {
+      "id": "mouth_021",
+      "category": "mouths",
+      "path": "assets/mouths/mouth_021.png",
+      "media_type": "image/png",
+      "label": "Annoyed · Closed"
+    },
+    {
+      "id": "mouth_022",
+      "category": "mouths",
+      "path": "assets/mouths/mouth_022.png",
+      "media_type": "image/png",
+      "label": "Annoyed · Open"
+    },
+    {
+      "id": "mouth_023",
+      "category": "mouths",
+      "path": "assets/mouths/mouth_023.png",
+      "media_type": "image/png",
+      "label": "Angry · Closed"
+    },
+    {
+      "id": "mouth_024",
+      "category": "mouths",
+      "path": "assets/mouths/mouth_024.png",
+      "media_type": "image/png",
+      "label": "Angry · Open"
+    },
+    {
+      "id": "mouth_025",
+      "category": "mouths",
+      "path": "assets/mouths/mouth_025.png",
+      "media_type": "image/png",
+      "label": "Worried · Closed"
+    },
+    {
+      "id": "mouth_026",
+      "category": "mouths",
+      "path": "assets/mouths/mouth_026.png",
+      "media_type": "image/png",
+      "label": "Worried · Open"
+    },
+    {
+      "id": "mouth_027",
+      "category": "mouths",
+      "path": "assets/mouths/mouth_027.png",
+      "media_type": "image/png",
+      "label": "Sad · Closed"
+    },
+    {
+      "id": "mouth_028",
+      "category": "mouths",
+      "path": "assets/mouths/mouth_028.png",
+      "media_type": "image/png",
+      "label": "Sad · Open"
+    },
+    {
+      "id": "mouth_029",
+      "category": "mouths",
+      "path": "assets/mouths/mouth_029.png",
+      "media_type": "image/png",
+      "label": "Shocked · Closed"
+    },
+    {
+      "id": "mouth_030",
+      "category": "mouths",
+      "path": "assets/mouths/mouth_030.png",
+      "media_type": "image/png",
+      "label": "Shocked · Open"
+    },
+    {
+      "id": "mouth_031",
+      "category": "mouths",
+      "path": "assets/mouths/mouth_031.png",
+      "media_type": "image/png",
+      "label": "Embarrassed · Closed"
+    },
+    {
+      "id": "mouth_032",
+      "category": "mouths",
+      "path": "assets/mouths/mouth_032.png",
+      "media_type": "image/png",
+      "label": "Embarrassed · Open"
+    },
+    {
+      "id": "mouth_035",
+      "category": "mouths",
+      "path": "assets/mouths/mouth_035.png",
+      "media_type": "image/png",
+      "label": "Smug · Closed"
+    },
+    {
+      "id": "mouth_036",
+      "category": "mouths",
+      "path": "assets/mouths/mouth_036.png",
+      "media_type": "image/png",
+      "label": "Smug · Open"
+    },
+    {
+      "id": "mouth_037",
+      "category": "mouths",
+      "path": "assets/mouths/mouth_037.png",
+      "media_type": "image/png",
+      "label": "Tired · Closed"
+    },
+    {
+      "id": "mouth_038",
+      "category": "mouths",
+      "path": "assets/mouths/mouth_038.png",
+      "media_type": "image/png",
+      "label": "Tired · Open"
+    },
+    {
+      "id": "mouth_039",
+      "category": "mouths",
+      "path": "assets/mouths/mouth_039.png",
+      "media_type": "image/png",
+      "label": "Determined · Closed"
+    },
+    {
+      "id": "mouth_040",
+      "category": "mouths",
+      "path": "assets/mouths/mouth_040.png",
+      "media_type": "image/png",
+      "label": "Determined · Open"
+    },
+    {
+      "id": "preset_001",
+      "category": "presets",
+      "path": "assets/presets/preset_001.webp",
+      "media_type": "image/webp",
+      "label": "001 Neutral Mouth Closed"
+    },
+    {
+      "id": "preset_002",
+      "category": "presets",
+      "path": "assets/presets/preset_002.webp",
+      "media_type": "image/webp",
+      "label": "002 Neutral Mouth Open"
+    },
+    {
+      "id": "preset_003",
+      "category": "presets",
+      "path": "assets/presets/preset_003.webp",
+      "media_type": "image/webp",
+      "label": "003 Soft Smile Mouth Closed"
+    },
+    {
+      "id": "preset_005",
+      "category": "presets",
+      "path": "assets/presets/preset_005.webp",
+      "media_type": "image/webp",
+      "label": "005 Confident Mouth Closed"
+    },
+    {
+      "id": "preset_006",
+      "category": "presets",
+      "path": "assets/presets/preset_006.webp",
+      "media_type": "image/webp",
+      "label": "006 Confident Mouth Open"
+    },
+    {
+      "id": "preset_007",
+      "category": "presets",
+      "path": "assets/presets/preset_007.webp",
+      "media_type": "image/webp",
+      "label": "007 Happy Mouth Closed"
+    },
+    {
+      "id": "preset_008",
+      "category": "presets",
+      "path": "assets/presets/preset_008.webp",
+      "media_type": "image/webp",
+      "label": "008 Happy Mouth Open"
+    },
+    {
+      "id": "preset_009",
+      "category": "presets",
+      "path": "assets/presets/preset_009.webp",
+      "media_type": "image/webp",
+      "label": "009 Laughing Mouth Closed"
+    },
+    {
+      "id": "preset_010",
+      "category": "presets",
+      "path": "assets/presets/preset_010.webp",
+      "media_type": "image/webp",
+      "label": "010 Laughing Mouth Open"
+    },
+    {
+      "id": "preset_011",
+      "category": "presets",
+      "path": "assets/presets/preset_011.webp",
+      "media_type": "image/webp",
+      "label": "011 Thinking Mouth Closed"
+    },
+    {
+      "id": "preset_012",
+      "category": "presets",
+      "path": "assets/presets/preset_012.webp",
+      "media_type": "image/webp",
+      "label": "012 Thinking Mouth Open"
+    },
+    {
+      "id": "preset_013",
+      "category": "presets",
+      "path": "assets/presets/preset_013.webp",
+      "media_type": "image/webp",
+      "label": "013 Confused Mouth Closed"
+    },
+    {
+      "id": "preset_014",
+      "category": "presets",
+      "path": "assets/presets/preset_014.webp",
+      "media_type": "image/webp",
+      "label": "014 Confused Mouth Open"
+    },
+    {
+      "id": "preset_015",
+      "category": "presets",
+      "path": "assets/presets/preset_015.webp",
+      "media_type": "image/webp",
+      "label": "015 Skeptical Mouth Closed"
+    },
+    {
+      "id": "preset_016",
+      "category": "presets",
+      "path": "assets/presets/preset_016.webp",
+      "media_type": "image/webp",
+      "label": "016 Skeptical Mouth Open"
+    },
+    {
+      "id": "preset_017",
+      "category": "presets",
+      "path": "assets/presets/preset_017.webp",
+      "media_type": "image/webp",
+      "label": "017 Surprised Mouth Closed"
+    },
+    {
+      "id": "preset_018",
+      "category": "presets",
+      "path": "assets/presets/preset_018.webp",
+      "media_type": "image/webp",
+      "label": "018 Surprised Mouth Open"
+    },
+    {
+      "id": "preset_019",
+      "category": "presets",
+      "path": "assets/presets/preset_019.webp",
+      "media_type": "image/webp",
+      "label": "019 Serious Mouth Closed"
+    },
+    {
+      "id": "preset_020",
+      "category": "presets",
+      "path": "assets/presets/preset_020.webp",
+      "media_type": "image/webp",
+      "label": "020 Serious Mouth Open"
+    },
+    {
+      "id": "preset_021",
+      "category": "presets",
+      "path": "assets/presets/preset_021.webp",
+      "media_type": "image/webp",
+      "label": "021 Annoyed Mouth Closed"
+    },
+    {
+      "id": "preset_022",
+      "category": "presets",
+      "path": "assets/presets/preset_022.webp",
+      "media_type": "image/webp",
+      "label": "022 Annoyed Mouth Open"
+    },
+    {
+      "id": "preset_023",
+      "category": "presets",
+      "path": "assets/presets/preset_023.webp",
+      "media_type": "image/webp",
+      "label": "023 Angry Mouth Closed"
+    },
+    {
+      "id": "preset_024",
+      "category": "presets",
+      "path": "assets/presets/preset_024.webp",
+      "media_type": "image/webp",
+      "label": "024 Angry Mouth Open"
+    },
+    {
+      "id": "preset_025",
+      "category": "presets",
+      "path": "assets/presets/preset_025.webp",
+      "media_type": "image/webp",
+      "label": "025 Worried Mouth Closed"
+    },
+    {
+      "id": "preset_026",
+      "category": "presets",
+      "path": "assets/presets/preset_026.webp",
+      "media_type": "image/webp",
+      "label": "026 Worried Mouth Open"
+    },
+    {
+      "id": "preset_027",
+      "category": "presets",
+      "path": "assets/presets/preset_027.webp",
+      "media_type": "image/webp",
+      "label": "027 Sad Mouth Closed"
+    },
+    {
+      "id": "preset_028",
+      "category": "presets",
+      "path": "assets/presets/preset_028.webp",
+      "media_type": "image/webp",
+      "label": "028 Sad Mouth Open"
+    },
+    {
+      "id": "preset_029",
+      "category": "presets",
+      "path": "assets/presets/preset_029.webp",
+      "media_type": "image/webp",
+      "label": "029 Shocked Mouth Closed"
+    },
+    {
+      "id": "preset_030",
+      "category": "presets",
+      "path": "assets/presets/preset_030.webp",
+      "media_type": "image/webp",
+      "label": "030 Shocked Mouth Open"
+    },
+    {
+      "id": "preset_031",
+      "category": "presets",
+      "path": "assets/presets/preset_031.webp",
+      "media_type": "image/webp",
+      "label": "031 Embarrassed Mouth Closed"
+    },
+    {
+      "id": "preset_032",
+      "category": "presets",
+      "path": "assets/presets/preset_032.webp",
+      "media_type": "image/webp",
+      "label": "032 Embarrassed Mouth Open"
+    },
+    {
+      "id": "preset_035",
+      "category": "presets",
+      "path": "assets/presets/preset_035.webp",
+      "media_type": "image/webp",
+      "label": "035 Smug Mouth Closed"
+    },
+    {
+      "id": "preset_036",
+      "category": "presets",
+      "path": "assets/presets/preset_036.webp",
+      "media_type": "image/webp",
+      "label": "036 Smug Mouth Open"
+    },
+    {
+      "id": "preset_037",
+      "category": "presets",
+      "path": "assets/presets/preset_037.webp",
+      "media_type": "image/webp",
+      "label": "037 Tired Mouth Closed"
+    },
+    {
+      "id": "preset_038",
+      "category": "presets",
+      "path": "assets/presets/preset_038.webp",
+      "media_type": "image/webp",
+      "label": "038 Tired Mouth Open"
+    },
+    {
+      "id": "preset_039",
+      "category": "presets",
+      "path": "assets/presets/preset_039.webp",
+      "media_type": "image/webp",
+      "label": "039 Determined Mouth Closed"
+    },
+    {
+      "id": "preset_040",
+      "category": "presets",
+      "path": "assets/presets/preset_040.webp",
+      "media_type": "image/webp",
+      "label": "040 Determined Mouth Open"
+    }
+  ]
+}
